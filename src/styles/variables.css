@@ -1,0 +1,127 @@
+:root {
+  /* -------------------------------------------------------------------------
+   * Brand Color Palette (Strictly locked to client specification)
+   * ----------------------------------------------------------------------- */
+  --color-soft-blush: #F8E8E8;
+  --color-warm-ivory: #FFF9F2;
+  --color-rose-gold: #C58B83;
+  --color-rose-gold-light: #DFB5AE;
+  --color-rose-gold-dark: #A86E66;
+  --color-deep-burgundy: #572C3A;
+  --color-deep-burgundy-light: #723C4D;
+  --color-deep-burgundy-dark: #3F1D28;
+  --color-champagne-beige: #E9D7C5;
+  --color-champagne-beige-light: #F6EDE3;
+  --color-white: #FFFFFF;
+
+  /* Functional and Surface Tokens */
+  --bg-primary: #FFF9F2;       /* Warm ivory */
+  --bg-secondary: #F8E8E8;     /* Soft blush pink */
+  --bg-tertiary: #E9D7C5;      /* Champagne beige */
+  --bg-card: #FFFFFF;
+  --bg-card-subtle: #FFFDF9;
+  --bg-overlay: rgba(87, 44, 58, 0.45);
+
+  /* Text Colors (Dark burgundy for text and contrast) */
+  --text-primary: #572C3A;     /* Deep burgundy */
+  --text-secondary: rgba(87, 44, 58, 0.78);
+  --text-muted: rgba(87, 44, 58, 0.55);
+  --text-light: #FFF9F2;
+  --text-inverse: #FFFFFF;
+  --text-accent: #C58B83;
+
+  /* Borders & Dividers */
+  --border-subtle: rgba(87, 44, 58, 0.08);
+  --border-light: rgba(197, 139, 131, 0.25);
+  --border-medium: rgba(87, 44, 58, 0.16);
+  --border-accent: #C58B83;
+
+  /* Luxury Gradients */
+  --gradient-blush-ivory: linear-gradient(135deg, #FFF9F2 0%, #F8E8E8 100%);
+  --gradient-champagne-blush: linear-gradient(135deg, #E9D7C5 0%, #F8E8E8 100%);
+  --gradient-rose-gold: linear-gradient(135deg, #DFB5AE 0%, #C58B83 50%, #A86E66 100%);
+  --gradient-burgundy: linear-gradient(135deg, #572C3A 0%, #3F1D28 100%);
+  --gradient-glass: linear-gradient(135deg, rgba(255, 255, 255, 0.85) 0%, rgba(255, 249, 242, 0.65) 100%);
+
+  /* Typography */
+  --font-serif: 'Cormorant Garamond', Georgia, serif;
+  --font-sans: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+
+  --font-size-xs: 0.75rem;    /* 12px */
+  --font-size-sm: 0.875rem;   /* 14px */
+  --font-size-base: 1rem;     /* 16px */
+  --font-size-lg: 1.125rem;   /* 18px */
+  --font-size-xl: 1.25rem;    /* 20px */
+  --font-size-2xl: 1.5rem;    /* 24px */
+  --font-size-3xl: 1.875rem;  /* 30px */
+  --font-size-4xl: 2.25rem;   /* 36px */
+  --font-size-5xl: 3rem;      /* 48px */
+  --font-size-6xl: 3.75rem;   /* 60px */
+
+  --font-weight-light: 300;
+  --font-weight-normal: 400;
+  --font-weight-medium: 500;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
+
+  --line-height-tight: 1.15;
+  --line-height-snug: 1.3;
+  --line-height-normal: 1.5;
+  --line-height-relaxed: 1.7;
+
+  --letter-spacing-tight: -0.02em;
+  --letter-spacing-normal: 0em;
+  --letter-spacing-wide: 0.05em;
+  --letter-spacing-wider: 0.1em;
+  --letter-spacing-widest: 0.2em;
+
+  /* Spacing Scale */
+  --spacing-1: 0.25rem;  /* 4px */
+  --spacing-2: 0.5rem;   /* 8px */
+  --spacing-3: 0.75rem;  /* 12px */
+  --spacing-4: 1rem;     /* 16px */
+  --spacing-5: 1.25rem;  /* 20px */
+  --spacing-6: 1.5rem;   /* 24px */
+  --spacing-8: 2rem;     /* 32px */
+  --spacing-10: 2.5rem;  /* 40px */
+  --spacing-12: 3rem;    /* 48px */
+  --spacing-16: 4rem;    /* 64px */
+  --spacing-20: 5rem;    /* 80px */
+  --spacing-24: 6rem;    /* 96px */
+
+  /* Border Radii */
+  --radius-xs: 4px;
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 16px;
+  --radius-xl: 24px;
+  --radius-2xl: 32px;
+  --radius-full: 9999px;
+
+  /* Shadows (Subtle, soft luxury elevation) */
+  --shadow-sm: 0 2px 6px rgba(87, 44, 58, 0.04);
+  --shadow-md: 0 4px 16px rgba(87, 44, 58, 0.06);
+  --shadow-lg: 0 10px 30px rgba(87, 44, 58, 0.08);
+  --shadow-xl: 0 20px 45px rgba(87, 44, 58, 0.12);
+  --shadow-rose: 0 8px 24px rgba(197, 139, 131, 0.25);
+  --shadow-glow: 0 0 30px rgba(233, 215, 197, 0.45);
+
+  /* Transitions */
+  --transition-fast: 150ms cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-normal: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-smooth: 400ms cubic-bezier(0.16, 1, 0.3, 1);
+
+  /* Layout Container Maximum Widths */
+  --container-sm: 640px;
+  --container-md: 768px;
+  --container-lg: 1024px;
+  --container-xl: 1280px;
+  --container-max: 1360px;
+
+  /* Z-Index Hierarchy */
+  --z-base: 1;
+  --z-sticky: 100;
+  --z-drawer: 200;
+  --z-modal: 300;
+  --z-toast: 400;
+}

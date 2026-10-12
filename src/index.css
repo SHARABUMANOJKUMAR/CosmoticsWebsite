@@ -1,0 +1,8 @@
+@import './styles/components.css';
+
+/* Global root setup */
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
